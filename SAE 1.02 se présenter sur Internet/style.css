@@ -1,0 +1,319 @@
+body{
+	color:white;
+	background-color:#393b47;
+}
+.page{
+	border:5px white solid;
+	background-color:#4fb8e1;
+	height:2260px;
+	width:1500px;
+	margin-left:400px;
+	font-size:125%
+}
+h1{
+	text-align:center;
+	font-family:castellar;
+}
+h2{
+	text-align:center;
+	font-family:bodoni mtblack;
+	text-decoration:underline;
+}
+h3{
+	text-align:center;
+	font-family:bodoni mtblack;
+}
+h4{
+	text-align:right;
+	margin-right:40px;
+}
+h5{
+	text-align:center;
+}
+li{
+	text-align:left;
+	font-family:bodoni mtcocondensed;
+}
+p{
+	text-align:left;
+	font-family:bodoni mtcondensed;
+}
+.onglet{
+	display:flex;
+	flex-direction:column;
+	background-color:lightblue;
+	border:5px white solid;
+	border-radius:0% 0% 50% 50%;
+	box-sizing:border-box;
+	height:450px;
+	width:1500px;
+}
+.onglet:hover{
+	background-color:white;
+	color:black;
+}
+.onglet2{
+	display:flex;
+	flex-direction:rox;
+	width:1500px;
+	height:250px;
+	box-sizing:border-box;
+	background-color:lightblue;
+	border:5px white solid;
+	border-radius:0% 0% 50% 50%;
+	margin-bottom: 50px;
+}
+.onglet2:hover{
+	background-color:white;
+	color:black;
+}
+#flexbox{
+	display:flex;
+	flex-direction:row;
+}
+#cadre_rond{
+	border:5px white solid;
+	border-radius:50%;
+	margin:-20px 0px 60px 100px;
+	height: 200px;
+	width:auto;
+}
+#cadre_rond2{
+	border:5px white solid;
+	border-radius:50%;
+	margin:20px 0px 0px 100px;
+	height: 150px;
+	width:auto;
+}
+#cadre_rond3{
+	border:5px white solid;
+	border-radius:50%;
+	margin:0px 100px 0px 50px;
+	height: 150px;
+	width:auto;
+}
+#cadre_rond4{
+	border:5px white solid;
+	border-radius:50%;
+	margin:20px 100px 0px 400px;
+	height: 150px;
+	width:auto;
+}
+#titre{
+	margin:80px 0px 0px 300px;
+}
+#article1{
+	margin:20px 30px 20px 0px;
+}
+#article2{
+	margin:-20px 0px 0px 0px;
+}
+article ul li{
+	list-style-type:none;
+}
+#cadre{
+	margin-top:50px;
+	display:flex;
+	flex-direction:row;
+}
+#cadre1{
+	border:5px white solid;
+	height:220px;
+	margin-left:50px;
+}
+#cadre2{
+	height:180px;
+}
+#cadre3{
+	height:128px;
+	width:432px;
+	display:flex;
+	flex-direction:row;
+	border:5px white solid;
+	margin-left:50px;
+}
+#cadre4{
+	height:128px;
+	width:144px;
+}
+#cadre5{
+	border:5px white solid;
+	margin:50px 100px 50px 100px;
+	border-radius:20px 20px 20px 20px;
+	height:350px;
+}
+#cadre6{
+	width:350px;
+}
+#cadre7{
+	border:5px white solid;
+}
+.lycee{
+	border:2px white solid;
+	border-radius:20px 0px 0px 0px;
+	padding:50px;
+	grid-area:lycee;
+	color:white;
+}
+#rt{
+	margin-right:0px;
+}
+#technique{
+	width:800px;
+	margin:0px 0px 0px 0px;
+}
+#humain{
+	margin:0px 20px 0px 20px;
+	width:700px;
+}
+.diplomes{
+	border:2px white solid;
+	padding:50px;
+	grid-area:diplomes;
+}
+.exp_pro{
+	border:2px white solid;
+	border-radius:0px 20px 0px 0px;
+	padding:50px;
+	grid-area:exp_pro;
+}
+.competences{
+	border:2px white solid;
+	border-radius:0px 0px 0px 0px;
+	padding:50px 20px 0px 20px;
+	grid-area:competences;
+}
+.info{
+	border:2px white solid;
+	border-radius:0px 0px 20px 20px;
+	padding:50px;
+	justify-self:stretch;
+	grid-area:info;
+}
+.lycee:hover{
+	background-color:white;
+	color:black;
+}
+.diplomes:hover{
+	background-color:white;
+	color:black;
+}
+.exp_pro:hover{
+	background-color:white;
+	color:black;
+}
+.competences:hover{
+	background-color:white;
+	color:black;
+}
+.info:hover{
+	background-color:white;
+	color:black;
+}
+.conteneur{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:1fr 5fr 5fr;
+	gap:5px;
+	grid-template-areas:
+		'lycee diplomes exp_pro'
+		'competences competences competences'
+		'info info info';
+	background-color:lightblue;
+	margin:80px 20px 0px 20px;
+	border:2px white solid;
+	border-radius:20px 20px 20px 20px;
+	padding:2px;
+	height:1650px;
+}
+.conteneur2{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr;
+	gap:5px;
+	grid-template-areas:
+		'etablissement seconde seconde'
+		'maths physique svt'
+		'maths physique svt';
+	background-color:lightblue;
+	margin:80px 20px 0px 20px;
+	border:2px white solid;
+	border-radius:20px 20px 20px 20px;
+	padding:2px;
+	height:1870px;
+}
+section ul li:hover{
+	list-style-type:none;
+}
+nav{
+	display:flex;
+	flex-direction:row;
+	margin:50px 5px 5px 5px;
+}
+#diplome1{
+	border:5px white solid;
+	background-color:white;
+	padding:20px;
+	width:745px;
+	text-align:center;
+	color:black;
+}
+#diplome2{
+	border:5px white solid;
+	background-color:lightblue;
+	padding:20px;
+	width:745px;
+	text-align:center;
+}
+#diplome2:hover{
+	background-color:white;
+	color:black;
+}
+#block{
+	border:5px white solid;
+	background-color:lightblue;
+	padding:20px;
+	width:1440px;
+	margin:0px 5px 0px 5px;
+}
+#block:hover{
+	background-color:white;
+	color:black;
+}
+#grade{
+	margin:0px 20px 0px 20px;
+}
+.etablissement{
+	border:2px white solid;
+	border-radius:20px 0px 0px 0px;
+	padding:50px;
+	grid-area:etablissement;
+	color:white;
+}
+.seconde{
+	border:2px white solid;
+	border-radius:0px 20px 0px 0px;
+	padding:50px;
+	grid-area:seconde;
+	color:white;
+}
+.maths{
+	border:2px white solid;
+	border-radius:0px 0px 0px 20px;
+	padding:50px;
+	grid-area:maths;
+	color:white;
+}
+.physique{
+	border:2px white solid;
+	padding:50px;
+	grid-area:physique;
+	color:white;
+}
+.svt{
+	border:2px white solid;
+	padding:50px;
+	grid-area:svt;
+	color:white;
+	border-radius:0px 0px 20px 0px;
+}
